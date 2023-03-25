@@ -1,7 +1,12 @@
 {
-    "name": "crossheadtokens",
+    "id": "crossheadtokens",
     "title": "CrossheadTokens",
-    "author": "Crosshead",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Crosshead",
+        }
+      ],
     "description": "Token Assets from Crosshead",
     "flags": {
       "crossheadtokens": {
@@ -20,17 +25,11 @@
             "module": "crossheadtokens"
         }
     ],
-    "id": "crossheadtokens",
-    "authors": [
-        {
-            "name": "Crosshead"
-        }
-    ],
-    "minimumCoreVersion": "0.8.0",
-    "compatibleCoreVersion": "9",
+    "relationships": {
+        "systems": ["dnd5e"]
+    },
     "compatibility": {
-        "minimum": 9,
+        "minimum": 10,
         "verified": 10
     },
-    "version": "1.1"
 }
